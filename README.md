@@ -15,7 +15,7 @@
 
 なお、公開しているデータセットは次のコマンドで辞書順にソート後、gzip圧縮しています。
 ```
-LC_ALL=C.UTF-8 sort --buffer-size=300G --parallel=16 -t '\t' -k 1,1　(ソート元ファイル名) -o sorted-tosho-pdmngram.json
+LC_ALL=C.UTF-8 sort --buffer-size=300G --parallel=16 -t '\t' -k 1,1　(ソート元ファイル名) -o （公開データセット名）
 ```
 
 ## 現在公開しているデータセットとライセンス情報
