@@ -10,7 +10,7 @@
 いもほりに行く  6       {'1937': '1', '1922': '1', '1938': '1', '1935': '2', '1923': '1'}
 ```
 
-詳細な集計方法については、[NDL Ngram Viewer(Version1)のソースコード](https://github.com/ndl-lab/ndlngramviewer_v1/tree/master/datacreationtools)を確認してください。
+分かち書きの条件等、詳細な集計方法については、[NDL Ngram Viewer(Version1)のソースコード](https://github.com/ndl-lab/ndlngramviewer_v1/tree/master/datacreationtools)を確認してください。
 
 
 なお、公開しているデータセットは次のコマンドで辞書順にソート後、gzip圧縮しています。
@@ -26,7 +26,7 @@ LC_ALL=C.UTF-8 sort --buffer-size=300G --parallel=16 -t '\t' -k 1,1　(ソート
 https://lab.ndl.go.jp/dataset/ngramviewer/sorted-tosho-pdmngram.json.gz 
 
 #### データセットの説明
-著作権保護期間が満了した図書資料約28万点において、総出現頻度が4以上の約8.3億ngram
+著作権保護期間が満了した図書資料約28万点において、総出現頻度が4以上の1gramから5gramまで約8.3億ngram
 
 
 #### データセットの権利
